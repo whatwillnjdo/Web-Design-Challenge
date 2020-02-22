@@ -4,19 +4,19 @@ body{
 }
 /* Navbar */
 .navbar{
-    max-height: 57px;
+    max-height: 60px;
 }
 .navigation .navbar-brand{
     color: white;
-    margin-left: 30px;
     padding: inherit;
     font-weight: bold;
+    margin-left: 35px;
     background-color: #0BADA6;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .navbar{
-    background-color: white;
-    font-size: 15px;
+   font-size: 20px;
+   background-color: white;
 }
 .active, .dropdown-menu .dropdown-item:active a:hover{
     background-color:#E7E7E7!important;
@@ -64,7 +64,7 @@ img{
 p{
  color: #6D8092;
  font-family: Arial, Helvetica, sans-serif;
- font-size: 17px;
+ font-size: 18px;
 }
 /* Box Class */
 .box {
@@ -82,20 +82,20 @@ p{
 }
 /* Footer */
 footer{
-background-color: #666666;
-border-top-style: solid;
-border-top-width: 5px;
-border-top-color: #0BADA6;
-color: white;
-min-height: 55px;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px;
-text-align: center;
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-padding-top: 15px;
+  background-color: #666666;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: #0BADA6;
+  min-height: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 15px;
+  color: gray;
 }
 /* Media Queries */
 @media(max-width: 992px){
@@ -111,7 +111,7 @@ background-color: #0BADA6 !important;
     background-color: white;
 }
 .navbar-brand{
-    padding: 10px !important;
+    padding: 50px !important;
 }
 
 button{
